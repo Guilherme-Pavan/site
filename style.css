@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200&family=Oswald:wght@200&display=swap');
+@font-face {
+    font-family: 'Army';
+    src: url('Fonts/army_rust/ARMY\ RUST.ttf') format('truetype');
+}
+:root{
+    --cor0: #364134;
+    --cor01: #2e2e2e;
+    --cor02: #111410;
+    --cor03: #386130;
+    --cor04: #90ad8b;
+}
+body{
+    margin: 0px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--cor04);
+}
+header{
+    background-image: linear-gradient(to top, #386130, #364134);
+    margin: 0px;
+    padding: 10px;
+}
+header h1{
+    text-align: center;
+    color: white;
+    padding: 5px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+header p{
+    text-align: center;
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+}
+nav{
+    background-color: #386130;
+    padding: 6px;
+}
+nav a{
+    font-weight: bold;
+    color: white;
+    margin: 30px;
+    text-decoration: none;
+    padding: 5px;  
+}
+nav a:hover{
+    color: #386130;
+    border-radius: 10px;
+    background-color: #90ad8b;
+}
+main{
+    background-color: white; 
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 25px 20px 25px 20px;
+}
+main h2{
+    font-family: 'Army';
+}
+main p{
+    line-height: 2em; /* espaçamento entre as linhas do texto*/
+}
+main img{
+    margin: auto;
+    display: block;
+    
+}
+aside{
+    background-color: #90ad8b;
+    border-radius: 10px;
+
+}
+aside h3{
+    color: white;
+    background-color: #386130;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+aside p{
+    padding: 15px;
+    color: white;
+
+}
+aside ul{
+    columns: 3;
+    line-height: 1.5em;
+    color: white;
+    padding: 30px;
+}
+footer{
+    background-image: linear-gradient(to top, #386130, #364134);
+    text-align: center;
+    font-size: 0.8em;
+    color: white;
+    box-sizing: border-box;
+    padding: 8px;
+}
+footer p{
+    margin: auto;
+}
+a.externo::after{
+    content: '\00A0\1F517';
+}
+p a{
+    text-decoration: none;
+}
+p a:hover{
+    font-weight: bold;
+}
